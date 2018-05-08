@@ -1,10 +1,21 @@
 class Person
-  def initialize(f_name, l_name, job)
-    @first_name = f_name
-    @last_name = l_name
+  def initialize(name, job)
+    @name = name
     @job = job
   end
   
-  def identity_set=()
+  def name=(name)
+    @name = name
+  end
+  def breed = (breed)
+    @breed = breed
+  end
+  
+  def name
+    @name
+  end
+  def breed
+    @breed
+  end
   
 end
