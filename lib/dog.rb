@@ -4,14 +4,18 @@ class Dog
     @breed = breed
   end
   
-  def name=(dog_name_and_breed)
-    name, breed = dog_name_and_breed.split
+  def name=(name)
     @name = name
+  end
+  def breed = (breed)
     @breed = breed
   end
   
   def name
     @name
+  end
+  def breed
+    @breed
   end
   
 end
